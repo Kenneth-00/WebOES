@@ -1,0 +1,25 @@
+<mat-toolbar class="toolbar">
+    <button mat-raised-button class="controller">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <span><strong>Office of the Extension Services</strong></span>
+    <span class="example-spacer"></span>
+
+    <button mat-raised-button class="row2button">
+        <span>
+            <mat-icon>home</mat-icon>
+            HOME
+        </span>
+    </button>
+    <button mat-raised-button class="row2button" id="btnCreate" (click)="openCreateFillForm()">
+        <span>
+            <mat-icon>create</mat-icon>
+            CREATE
+        </span>
+    </button>
+    <button mat-raised-button class="row2button" color="accent">
+        <span><mat-icon>visibility</mat-icon>
+            VIEW
+        </span>
+    </button>
+</mat-toolbar>

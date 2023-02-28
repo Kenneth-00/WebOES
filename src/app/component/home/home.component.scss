@@ -1,0 +1,24 @@
+.toolbar {
+    background-color: rgb(146, 1, 1);
+}
+
+.row2button, .controller {
+    // height: 20px;
+    width: fit-content;
+    margin-right: 6px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+#btnCreate {
+    background-color: rgb(9, 202, 9);
+}
+
+.row2button {
+
+    span {
+        display: inline;
+    }
+}
